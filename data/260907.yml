@@ -5,19 +5,19 @@ about:
   head: 90196e9
   archived: false
   latestVersion: "v0.9.0"
-  collectedAt: 2026-09-07T04:57:02Z
+  collectedAt: 2026-09-07T19:25:35Z
 timeline:
   created: 2018-11-01
   lastCommit: 2026-02-14
   lastRelease: 2025-12-06
 popularity:
-  star: 1240
+  star: 1241
   watcher: 16
   fork: 45
   release: 10
   contributor: 12
   pullRequest: 29
-  issue: 33
+  issue: 34
 language:
   Rust: 15648
 totalBytes: 15648
@@ -28,7 +28,7 @@ recent:
     mergedPR: 0
     openPR: 0
     closedIssue: 0
-    openIssue: 0
+    openIssue: 1
     commit: 0
   last60d:
     since: 2026-07-09
@@ -36,7 +36,7 @@ recent:
     mergedPR: 0
     openPR: 0
     closedIssue: 0
-    openIssue: 0
+    openIssue: 1
     commit: 0
   last90d:
     since: 2026-06-09
@@ -44,7 +44,7 @@ recent:
     mergedPR: 0
     openPR: 0
     closedIssue: 0
-    openIssue: 0
+    openIssue: 1
     commit: 0
   last180d:
     since: 2026-03-11
@@ -52,7 +52,7 @@ recent:
     mergedPR: 0
     openPR: 2
     closedIssue: 0
-    openIssue: 0
+    openIssue: 1
     commit: 0
   last360d:
     since: 2025-09-12
@@ -60,7 +60,7 @@ recent:
     mergedPR: 4
     openPR: 2
     closedIssue: 0
-    openIssue: 0
+    openIssue: 1
     commit: 20
   last720d:
     since: 2024-09-17
@@ -68,18 +68,18 @@ recent:
     mergedPR: 5
     openPR: 3
     closedIssue: 1
-    openIssue: 0
+    openIssue: 1
     commit: 27
 total:
   release: 10
   mergedPR: 18
   openPR: 5
   closedIssue: 25
-  openIssue: 8
+  openIssue: 9
   commit: 123
 ---
 path: /home/runner/.x-repo/github.com/sharkdp/diskus
-collectedAt: 2026-09-07T04:57:02Z
+collectedAt: 2026-09-07T19:25:36Z
 loc:
   Rust:
     code: 381
@@ -206,7 +206,7 @@ checks:
       - 'Warn: 0 commits out of 7 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T04:57:03+00:00
+  collectedAt: 2026-09-07T19:25:37+00:00
   platform:
     darwin/arm64:
       name:  diskus-v0.9.0-aarch64-apple-darwin.tar.gz
