@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 318171,
       "digest": "sha256:e6013f4f57139872c9e2656b03c3ddbd39cf711a4128475112bd1b8328372137",
-      "download_count": 1053,
+      "download_count": 1054,
       "created_at": "2025-12-06T23:57:53Z",
       "updated_at": "2025-12-06T23:57:53Z",
       "browser_download_url": "https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-i686-pc-windows-msvc.zip"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 342993,
       "digest": "sha256:61f595b5b360e6689eee3a1913ecd1e7d266afceed0a6ad792d7df75c8bf3fde",
-      "download_count": 1520,
+      "download_count": 1521,
       "created_at": "2025-12-06T23:57:11Z",
       "updated_at": "2025-12-06T23:57:11Z",
       "browser_download_url": "https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-x86_64-pc-windows-msvc.zip"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 430450,
       "digest": "sha256:372863e71920e0d5c01762f2762bad359a5825ccd657934cf3b21b67535ab7e9",
-      "download_count": 707,
+      "download_count": 708,
       "created_at": "2025-12-06T23:57:08Z",
       "updated_at": "2025-12-06T23:57:09Z",
       "browser_download_url": "https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-x86_64-unknown-linux-gnu.tar.gz"
