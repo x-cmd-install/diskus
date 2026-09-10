@@ -4,7 +4,7 @@
 
 A minimal, fast alternative to 'du -sh'
 
-![diskus](https://repo.x-cmd.io/diskus.svg)
+![diskus](https://repo.x-cmd.io/diskus.svg?lang=zh)
 
 ## 安装
 
@@ -22,7 +22,30 @@ x install diskus
 - **最新版本**: `v0.9.0` (2025-12-06)
 - **最近提交**: 2026-02-14
 - **Release 含资产**: 19 个
-- **发布时间**: 2025-12-06T23:56:22Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [diskus-musl_0.9.0_amd64.deb](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-musl_0.9.0_amd64.deb) | 410.4 KiB | `runtime/deb/amd64` |
+| [diskus-musl_0.9.0_armhf.deb](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-musl_0.9.0_armhf.deb) | 393.3 KiB | `runtime/deb/armhf` |
+| [diskus-musl_0.9.0_i686.deb](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-musl_0.9.0_i686.deb) | 425.6 KiB | `other` |
+| [diskus-v0.9.0-aarch64-apple-darwin.tar.gz](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-aarch64-apple-darwin.tar.gz) | 365.0 KiB | `native/darwin/arm64` |
+| [diskus-v0.9.0-aarch64-unknown-linux-gnu.tar.gz](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-aarch64-unknown-linux-gnu.tar.gz) | 388.3 KiB | `native/linux/arm64/glibc` |
+| [diskus-v0.9.0-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-arm-unknown-linux-gnueabihf.tar.gz) | 412.4 KiB | `native/linux/arm/glibc` |
+| [diskus-v0.9.0-arm-unknown-linux-musleabihf.tar.gz](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-arm-unknown-linux-musleabihf.tar.gz) | 441.3 KiB | `native/linux/arm/musl` |
+| [diskus-v0.9.0-i686-pc-windows-msvc.zip](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-i686-pc-windows-msvc.zip) | 310.7 KiB | `native/win/x64` |
+| [diskus-v0.9.0-i686-unknown-linux-gnu.tar.gz](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-i686-unknown-linux-gnu.tar.gz) | 441.3 KiB | `native/linux/x86/glibc` |
+| [diskus-v0.9.0-i686-unknown-linux-musl.tar.gz](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-i686-unknown-linux-musl.tar.gz) | 477.2 KiB | `native/linux/x86/musl` |
+| [diskus-v0.9.0-x86_64-apple-darwin.tar.gz](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-x86_64-apple-darwin.tar.gz) | 394.2 KiB | `native/darwin/x64` |
+| [diskus-v0.9.0-x86_64-pc-windows-gnu.zip](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-x86_64-pc-windows-gnu.zip) | 383.2 KiB | `native/win/x64` |
+| [diskus-v0.9.0-x86_64-pc-windows-msvc.zip](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-x86_64-pc-windows-msvc.zip) | 335.0 KiB | `native/win/x64` |
+| [diskus-v0.9.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-x86_64-unknown-linux-gnu.tar.gz) | 420.4 KiB | `native/linux/x64/glibc` |
+| [diskus-v0.9.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus-v0.9.0-x86_64-unknown-linux-musl.tar.gz) | 468.0 KiB | `native/linux/x64/musl` |
+| [diskus_0.9.0_amd64.deb](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus_0.9.0_amd64.deb) | 368.0 KiB | `runtime/deb/amd64` |
+| [diskus_0.9.0_arm64.deb](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus_0.9.0_arm64.deb) | 338.1 KiB | `runtime/deb/arm64` |
+| [diskus_0.9.0_armhf.deb](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus_0.9.0_armhf.deb) | 362.6 KiB | `runtime/deb/armhf` |
+| [diskus_0.9.0_i686.deb](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus_0.9.0_i686.deb) | 395.2 KiB | `other` |
 
 ## 流行度
 
@@ -69,4 +92,4 @@ diskus 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:06:50Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:58:20Z._
