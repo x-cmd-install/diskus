@@ -12,6 +12,26 @@ A minimal, fast alternative to 'du -sh'
 x install diskus
 ```
 
+## Code insight
+
+Total: **419** lines of code across **9** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Rust | 381 | 16 | 61 | 6 |
+| Toml | 38 | 2 | 6 | 1 |
+| Markdown | 0 | 149 | 80 | 2 |
+
+## OpenSSF Scorecard
+
+Overall score: **2.6 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (1/10) — Found 5/29 approved changesets -- score normalized to 1
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
+
 ## Source
 
 - **Upstream**: <https://github.com/sharkdp/diskus>
@@ -22,6 +42,25 @@ x install diskus
 - **Latest**: `v0.9.0` (2025-12-06)
 - **Last commit**: 2026-02-14
 - **Assets in release**: 19
+
+## Popularity
+
+- **Stars**: 1,242 · **Forks**: 44 · **Open issues**: 34 · **Contributors**: 12
+
+## Totals (cumulative)
+
+- **Releases**: 10 · **Merged PRs**: 18 · **Open PRs**: 5 · **Closed issues**: 25 · **Open issues**: 9 · **Commits**: 123
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 2 | 0 | 1 | 0 |
+| 360d | 2025-09-15 | 1 | 4 | 2 | 0 | 1 | 20 |
+| last720d | 2024-09-20 | 2 | 5 | 3 | 0 | 1 | 27 |
 
 ## Release assets
 
@@ -47,41 +86,17 @@ x install diskus
 | [diskus_0.9.0_armhf.deb](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus_0.9.0_armhf.deb) | 362.6 KiB | `runtime/deb/armhf` |
 | [diskus_0.9.0_i686.deb](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus_0.9.0_i686.deb) | 395.2 KiB | `other` |
 
-## Popularity
+## Distribution status
 
-- **Stars**: 1,242 · **Forks**: 44 · **Open issues**: 34 · **Contributors**: 12
+Reported by **21** distros on [repology.org](https://repology.org/project/diskus). **12** are ✅ on the latest upstream release, **8** are ⚠️ on an older version.
 
-## Totals (cumulative)
-
-- **Releases**: 10 · **Merged PRs**: 18 · **Open PRs**: 5 · **Closed issues**: 25 · **Open issues**: 9 · **Commits**: 123
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 1 | 0 |
-| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 1 | 0 |
-| 360d | 2025-09-15 | 1 | 4 | 2 | 0 | 1 | 20 |
-
-## Code size
-
-Total: **419** lines of code across **9** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Rust | 381 | 16 | 61 | 6 |
-| Toml | 38 | 2 | 6 | 1 |
-| Markdown | 0 | 149 | 80 | 2 |
-
-## OpenSSF Scorecard
-
-Overall score: **2.6 / 10**
-
-Lowest-scoring checks:
-
-- **Code-Review** (1/10) — Found 5/29 approved changesets -- score normalized to 1
-- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `0.9.0` | ✅ latest |
+| Homebrew | `0.9.0` | ✅ latest |
+| Nix unstable | `0.9.0` | ✅ latest |
+| Void | `0.7.0` | ⚠️ outdated |
+| Alpine edge | `0.8.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -92,4 +107,4 @@ Install metadata for diskus lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:58:20Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:36:49Z._
