@@ -1,15 +1,65 @@
-- repo: manjaro_testing
-  subrepo: extra
+- repo: nix_stable_25_05
+  srcname: diskus
+  visiblename: diskus
+  version: 0.8.0
+  origversion: null
+  status: outdated
+  summary: Minimal, fast alternative to 'du -sh'
+  maintainers:
+    - severin@fuerbringer.info
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_25_11
+  srcname: diskus
+  visiblename: diskus
+  version: 0.8.0
+  origversion: null
+  status: outdated
+  summary: Minimal, fast alternative to 'du -sh'
+  maintainers:
+    - severin@fuerbringer.info
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_24_05
+  srcname: diskus
+  visiblename: diskus
+  version: 0.7.0
+  origversion: null
+  status: outdated
+  summary: A minimal, fast alternative to 'du -sh'
+  maintainers:
+    - severin@fuerbringer.info
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_24_11
+  srcname: diskus
+  visiblename: diskus
+  version: 0.7.0
+  origversion: null
+  status: outdated
+  summary: Minimal, fast alternative to 'du -sh'
+  maintainers:
+    - severin@fuerbringer.info
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: alpine_edge
+  subrepo: testing
   srcname: diskus
   binname: diskus
   visiblename: diskus
-  version: 0.9.0
-  origversion: 0.9.0-2
-  status: newest
-  summary: Minimal, fast alternative to 'du -sh'
+  version: 0.8.0
+  origversion: 0.8.0-r0
+  status: outdated
+  summary: fast alternative for du
+  maintainers:
+    - guddaff@protonmail.com
   licenses:
-    - Apache-2.0 OR MIT
-- repo: manjaro_unstable
+    - MIT
+- repo: arch
   subrepo: extra
   srcname: diskus
   binname: diskus
@@ -94,20 +144,7 @@
   summary: Minimal, fast alternative to 'du -sh'
   licenses:
     - Apache-2.0 OR MIT
-- repo: alpine_edge
-  subrepo: testing
-  srcname: diskus
-  binname: diskus
-  visiblename: diskus
-  version: 0.8.0
-  origversion: 0.8.0-r0
-  status: outdated
-  summary: fast alternative for du
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: arch
+- repo: manjaro_testing
   subrepo: extra
   srcname: diskus
   binname: diskus
@@ -118,54 +155,17 @@
   summary: Minimal, fast alternative to 'du -sh'
   licenses:
     - Apache-2.0 OR MIT
-- repo: nix_stable_24_05
+- repo: manjaro_unstable
+  subrepo: extra
   srcname: diskus
+  binname: diskus
   visiblename: diskus
-  version: 0.7.0
-  origversion: null
-  status: outdated
-  summary: A minimal, fast alternative to 'du -sh'
-  maintainers:
-    - severin@fuerbringer.info
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_24_11
-  srcname: diskus
-  visiblename: diskus
-  version: 0.7.0
-  origversion: null
-  status: outdated
+  version: 0.9.0
+  origversion: 0.9.0-2
+  status: newest
   summary: Minimal, fast alternative to 'du -sh'
-  maintainers:
-    - severin@fuerbringer.info
   licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_25_05
-  srcname: diskus
-  visiblename: diskus
-  version: 0.8.0
-  origversion: null
-  status: outdated
-  summary: Minimal, fast alternative to 'du -sh'
-  maintainers:
-    - severin@fuerbringer.info
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_25_11
-  srcname: diskus
-  visiblename: diskus
-  version: 0.8.0
-  origversion: null
-  status: outdated
-  summary: Minimal, fast alternative to 'du -sh'
-  maintainers:
-    - severin@fuerbringer.info
-  licenses:
-    - Apache-2.0
-    - MIT
+    - Apache-2.0 OR MIT
 - repo: nix_stable_26_05
   srcname: diskus
   visiblename: diskus
@@ -186,7 +186,7 @@
   status: newest
   summary: Minimal, fast alternative to 'du -sh'
   maintainers:
-    - severin@fuerbringer.info
+    - fallback-mnt-nix@repology
   licenses:
     - Apache-2.0
     - MIT
