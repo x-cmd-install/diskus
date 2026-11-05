@@ -189,9 +189,6 @@
   summary: Minimal, fast alternative to 'du -sh'
   maintainers:
     - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-    - MIT
 - repo: parabola
   subrepo: extra
   srcname: diskus
