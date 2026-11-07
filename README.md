@@ -45,7 +45,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,268 · **Forks**: 47 · **Open issues**: 35 · **Contributors**: 12
+- **Stars**: 1,269 · **Forks**: 47 · **Open issues**: 35 · **Contributors**: 12
 
 ## Totals (cumulative)
 
@@ -55,12 +55,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-09-07 | 0 | 0 | 1 | 0 | 1 | 0 |
-| 90d | 2026-08-08 | 0 | 0 | 1 | 0 | 2 | 0 |
-| last180d | 2026-05-10 | 0 | 0 | 2 | 0 | 2 | 0 |
-| 360d | 2025-11-11 | 1 | 4 | 3 | 0 | 2 | 20 |
-| last720d | 2024-11-16 | 2 | 5 | 4 | 0 | 2 | 27 |
+| 30d | 2026-10-08 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-09-08 | 0 | 0 | 1 | 0 | 1 | 0 |
+| 90d | 2026-08-09 | 0 | 0 | 1 | 0 | 2 | 0 |
+| last180d | 2026-05-11 | 0 | 0 | 2 | 0 | 2 | 0 |
+| 360d | 2025-11-12 | 1 | 4 | 3 | 0 | 2 | 20 |
+| last720d | 2024-11-17 | 2 | 5 | 4 | 0 | 2 | 27 |
 
 ## Release assets
 
@@ -88,7 +88,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **21** distros on [repology.org](https://repology.org/project/diskus). **10** are ✅ on the latest upstream release, **10** are ⚠️ on an older version.
+Reported by **21** distros on [repology.org](https://repology.org/project/diskus). **12** are ✅ on the latest upstream release, **8** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -107,4 +107,4 @@ Install metadata for diskus lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T06:58:37Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:20:02Z._
