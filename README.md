@@ -55,12 +55,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-17 | 0 | 0 | 0 | 0 | 1 | 0 |
-| 90d | 2026-08-18 | 0 | 0 | 1 | 0 | 2 | 0 |
-| last180d | 2026-05-20 | 0 | 0 | 1 | 0 | 2 | 0 |
-| 360d | 2025-11-21 | 1 | 4 | 3 | 0 | 2 | 20 |
-| last720d | 2024-11-26 | 2 | 5 | 4 | 0 | 2 | 27 |
+| 30d | 2026-10-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-18 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 90d | 2026-08-19 | 0 | 0 | 1 | 0 | 2 | 0 |
+| last180d | 2026-05-21 | 0 | 0 | 1 | 0 | 2 | 0 |
+| 360d | 2025-11-22 | 1 | 4 | 3 | 0 | 2 | 20 |
+| last720d | 2024-11-27 | 2 | 5 | 4 | 0 | 2 | 27 |
 
 ## Release assets
 
@@ -86,18 +86,6 @@ Lowest-scoring checks:
 | [diskus_0.9.0_armhf.deb](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus_0.9.0_armhf.deb) | 362.6 KiB | `runtime/deb/armhf` |
 | [diskus_0.9.0_i686.deb](https://github.com/sharkdp/diskus/releases/download/v0.9.0/diskus_0.9.0_i686.deb) | 395.2 KiB | `other` |
 
-## Distribution status
-
-Reported by **21** distros on [repology.org](https://repology.org/project/diskus). **12** are ✅ on the latest upstream release, **8** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `0.9.0` | ✅ latest |
-| Homebrew | `0.9.0` | ✅ latest |
-| Nix unstable | `0.9.0` | ✅ latest |
-| Void | `0.7.0` | ⚠️ outdated |
-| Alpine edge | `0.8.0` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for diskus lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `diskus` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -107,4 +95,4 @@ Install metadata for diskus lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T06:49:01Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T10:19:29Z._
